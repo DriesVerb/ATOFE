@@ -1,0 +1,30 @@
+.badge-line {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: baseline;
+
+  margin-bottom: 1rem;
+}
+
+.badge {
+  padding: 0.4rem;
+
+  &__main {
+    margin-left: 0.4rem;
+
+    &--thriller {
+      background-color: $color-badge-thriller;
+    }
+  }
+
+  &__next {
+    &--crime-caper {
+      background-color: $color-badge-crime-caper;
+    }
+  }
+
+  &__right {
+    // margin-left: 3rem;
+    background-color: #adb5bd;
+  }
+}

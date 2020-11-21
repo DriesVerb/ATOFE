@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__item {
+    text-decoration: none;
+    color: $color-main-black;
+
+    &:not(:last-child) {
+      margin-right: 10rem;
+    }
+
+    &:link,
+    &:visited {
+      color: $color-main-black;
+    }
+  }
+}

@@ -1,0 +1,110 @@
+// DISPLAY FONTS
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chewy&family=Modak&family=Rakkas&family=Rye&display=swap");
+
+/* 
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Rye', cursive;
+
+*/
+
+// SANS SERIF
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Lato:wght@300;400;900&family=Nunito:ital,wght@0,200;0,400;0,600;1,400&family=Roboto:wght@100;400;700;900&family=Varela+Round&display=swap");
+
+/* 
+
+font-family: 'Cabin', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif; COMPONENTS
+font-family: 'Varela Round', sans-serif;
+
+*/
+
+// SERIF
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap");
+
+/* 
+
+font-family: 'Crimson Text', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'PT Serif', serif;
+
+*/
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 7rem;
+  color: #24272d;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+}
+
+// MAIN TYPOGRAPHY
+
+.pieceheading__title {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+
+  color: #24272d;
+  font-size: 4rem;
+
+  margin-bottom: 1rem;
+}
+
+.main > p {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+// .main > p::first-letter {
+//   font-size: 200%;
+// }
+
+// ARTICLE PRESENT
+
+.pieceheading__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+
+  color: #24272d;
+  font-size: 2rem;
+}
+
+.pieceheading__author {
+  font-family: "Cabin", sans-serif;
+  font-size: 1rem;
+
+  margin-left: 0.5rem;
+}
+
+// BADGE
+
+.badge {
+  color: $color-main-black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #f4eded;
+  font-size: 0.8rem;
+}
+
+// NAV BAR
+
+.nav__item {
+  color: $color-main-black;
+  font-family: "Lato", sans-serif;
+  font-weight: light;
+}
