@@ -11,7 +11,7 @@
 
   &__item {
     text-decoration: none;
-    color: $color-main-black;
+    color: map-get($color-main, m-black);
 
     &:not(:last-child) {
       margin-right: 10rem;
@@ -19,7 +19,7 @@
 
     &:link,
     &:visited {
-      color: $color-main-black;
+      color: map-get($color-main, m-black);
     }
   }
 }

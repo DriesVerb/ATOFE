@@ -26,17 +26,42 @@ header {
 .line {
   height: 3px;
   width: 100%;
-  background-color: #24272d;
+  background-color: map-get($color-main, m-black);
 }
 
-.cta__story {
-  grid-row: 3/4;
-  grid-column: 3/7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.cta {
+  &__button {
+    padding: 2rem;
+    background-color: orangered;
+    text-align: center;
+  }
 
+  &__story {
+    grid-row: 3/4;
+    grid-column: 3/7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+    background-color: map-get($color-main, m-yellow);
+
+    &--buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &--start {
+    }
+
+    &--random {
+    }
+  }
+}
 .main {
   grid-row: 4/5;
   grid-column: 3/7;
@@ -46,8 +71,8 @@ header {
     width: 100%;
     background: linear-gradient(
       90deg,
-      rgba($color-badge-thriller, 1),
-      rgba($color-badge-crime-caper, 1)
+      rgba(map-get($color-genre, thriller), 1),
+      rgba(map-get($color-sub-genre, crime-caper), 1)
     );
     display: flex;
     justify-content: space-around;

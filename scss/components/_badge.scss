@@ -13,18 +13,18 @@
     margin-left: 0.4rem;
 
     &--thriller {
-      background-color: $color-badge-thriller;
+      background-color: map-get($color-genre, thriller);
     }
   }
 
   &__next {
     &--crime-caper {
-      background-color: $color-badge-crime-caper;
+      background-color: map-get($color-sub-genre, crime-caper);
     }
   }
 
   &__right {
     // margin-left: 3rem;
-    background-color: #adb5bd;
+    background-color: map-get($color-main, grey-dark);
   }
 }

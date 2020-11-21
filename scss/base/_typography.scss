@@ -43,7 +43,7 @@ font-family: 'PT Serif', serif;
 h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 7rem;
-  color: #24272d;
+  color: map-get($color-main, m-black);
   text-transform: uppercase;
 
   margin-bottom: 1rem;
@@ -55,7 +55,7 @@ h1 {
   font-family: "Lato", sans-serif;
   font-weight: bold;
 
-  color: #24272d;
+  color: map-get($color-main, m-black);
   font-size: 4rem;
 
   margin-bottom: 1rem;
@@ -76,11 +76,18 @@ h1 {
 
 // ARTICLE PRESENT
 
+.piece__title {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
 .pieceheading__title {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 
-  color: #24272d;
+  color: map-get($color-main, m-black);
   font-size: 2rem;
 }
 
@@ -94,17 +101,16 @@ h1 {
 // BADGE
 
 .badge {
-  color: $color-main-black;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
-  color: #f4eded;
+  color: map-get($color-main, m-white);
   font-size: 0.8rem;
 }
 
 // NAV BAR
 
 .nav__item {
-  color: $color-main-black;
+  color: map-get($color-main, m-black);
   font-family: "Lato", sans-serif;
   font-weight: light;
 }

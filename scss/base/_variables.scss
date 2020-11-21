@@ -1,10 +1,96 @@
 // LAYOUT BASIC COLORS
 
-$color-main-black: #24272d;
+$color-main: (
+  "m-black": #24272d,
+  "m-white": #f4eded,
+  "grey-light": #94969e,
+  "grey-dark": #38302e,
+  "m-yellow": #f9db6d,
+  "m-green": #68a17a,
+  "m-red": #db222a,
+  "m-blue": #3a99cf,
+);
 
-// COMPONENT - BADGE
+// COMPONENT - COLOR - BADGE
 
-// THRILLERS
-$color-badge-thriller: #052c65;
+// GENRE MAPS
 
-$color-badge-crime-caper: #fb8039;
+$color-genre: (
+  "thriller": #052c65,
+);
+
+$color-sub-genre: (
+  "crime-caper": #fb8039,
+);
+
+// MARGIN VALUES
+
+$margins: (
+  "xl": 2rem,
+  "l": 1rem,
+  "s": 0.5rem,
+);
+
+// MARGIN BOTTOM
+
+.mb {
+  &-xl {
+    margin-bottom: map-get($margins, xl);
+  }
+
+  &-l {
+    margin-bottom: map-get($margins, l);
+  }
+
+  &-sm {
+    margin-bottom: map-get($margins, s);
+  }
+}
+
+// MARGIN TOP
+
+.mt {
+  &-xl {
+    margin-top: map-get($margins, xl);
+  }
+
+  &-l {
+    margin-top: map-get($margins, l);
+  }
+
+  &-sm {
+    margin-top: map-get($margins, s);
+  }
+}
+
+// MARGIN RIGHT
+
+.mr {
+  &-xl {
+    margin-right: map-get($margins, xl);
+  }
+
+  &-l {
+    margin-right: map-get($margins, l);
+  }
+
+  &-sm {
+    margin-right: map-get($margins, s);
+  }
+}
+
+// MARGIN LEFT
+
+.ml {
+  &-xl {
+    margin-left: map-get($margins, xl);
+  }
+
+  &-l {
+    margin-left: map-get($margins, l);
+  }
+
+  &-sm {
+    margin-left: map-get($margins, s);
+  }
+}
