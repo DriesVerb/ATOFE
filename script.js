@@ -13,7 +13,6 @@ fetch(`https://emoji-api.com/emojis?access_key=${api.key}`)
   .then((object) => {
     emojiCollection.forEach((value, index) => {
       let randomizer = Math.floor(Math.random() * object.length);
-      // if (object[randomizer].character !== "🧋")
       value.innerHTML = `${object[randomizer].character}`;
     });
   });
