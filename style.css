@@ -603,7 +603,6 @@ header {
 
 .cta__button {
   padding: 2rem;
-  background-color: orangered;
   text-align: center; }
 
 .cta__story {
@@ -614,7 +613,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #f9db6d; }
+  background-color: #3a99cf; }
   .cta__story--buttons {
     width: 100%;
     display: flex;

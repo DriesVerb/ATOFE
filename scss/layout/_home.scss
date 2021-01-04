@@ -32,7 +32,6 @@ header {
 .cta {
   &__button {
     padding: 2rem;
-    background-color: orangered;
     text-align: center;
   }
 
@@ -46,7 +45,7 @@ header {
     align-items: center;
 
     padding: 2rem;
-    background-color: map-get($color-main, m-yellow);
+    background-color: map-get($color-main, m-blue);
 
     &--buttons {
       width: 100%;

@@ -14,5 +14,8 @@ fetch(`https://emoji-api.com/emojis?access_key=${api.key}`)
     emojiCollection.forEach((value, index) => {
       let randomizer = Math.floor(Math.random() * object.length);
       value.innerHTML = `${object[randomizer].character}`;
+      value.addEventListener(`mouseover`, () => {
+        console.log(object[randomizer].slug);
+      });
     });
   });
