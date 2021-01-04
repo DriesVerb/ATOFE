@@ -454,7 +454,11 @@ textarea {
 
 @font-face {
   font-family: OpenSansEmoji;
-  src: url(/fonts/NotoColorEmoji.otf); }
+  src: url(/fonts/OpenSansEmoji.otf); }
+
+@font-face {
+  font-family: Symbola;
+  src: url(/fonts/Symbola-AjYx.ttf); }
 
 /* 
 
@@ -541,7 +545,7 @@ h1 {
 
 .div__emoji {
   font-size: 5rem;
-  font-family: Openemonji, Firefoxemoji, OpenSansEmoji; }
+  font-family: Openemonji, Firefoxemoji, OpenSansEmoji, Symbola; }
 
 .badge-line {
   display: flex;
