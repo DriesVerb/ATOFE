@@ -446,19 +446,19 @@ textarea {
 
 @font-face {
   font-family: Openemonji;
-  src: url(/fonts/NotoColorEmoji.ttf); }
+  src: url(./fonts/NotoColorEmoji.ttf); }
 
 @font-face {
   font-family: Firefoxemoji;
-  src: url(/fonts/TwitterColorEmoji-SVGinOT.ttf); }
+  src: url(./fonts/TwitterColorEmoji-SVGinOT.ttf); }
 
 @font-face {
   font-family: OpenSansEmoji;
-  src: url(/fonts/OpenSansEmoji.otf); }
+  src: url(./fonts/OpenSansEmoji.otf); }
 
 @font-face {
   font-family: Symbola;
-  src: url(/fonts/Symbola-AjYx.ttf); }
+  src: url(./fonts/Symbola-AjYx.ttf); }
 
 /* 
 
