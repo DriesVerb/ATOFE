@@ -62,7 +62,7 @@ font-family: 'PT Serif', serif;
 
 h1 {
   font-family: "Abril Fatface", cursive;
-  font-size: 7rem;
+  font-size: 6rem;
   color: map-get($color-main, m-black);
   text-transform: uppercase;
 
@@ -79,6 +79,12 @@ h1 {
   font-size: 4rem;
 
   margin-bottom: 1rem;
+
+  &--small {
+    font-size: 1.3rem;
+    font-family: lato, sans-serif;
+    text-align: right;
+  }
 }
 
 .main > p {

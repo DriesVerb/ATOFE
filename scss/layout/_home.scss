@@ -53,12 +53,6 @@ header {
       justify-content: space-around;
       align-items: center;
     }
-
-    &--start {
-    }
-
-    &--random {
-    }
   }
 }
 .main {
@@ -71,12 +65,58 @@ header {
     background: linear-gradient(
       90deg,
       rgba(map-get($color-genre, thriller), 1),
-      rgba(map-get($color-sub-genre, crime-caper), 1)
+      rgba(map-get($color-sub-genre, t-crime), 1)
     );
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     margin-bottom: 1rem;
+  }
+}
+
+.sidebar {
+  grid-row: 3/6;
+  grid-column: 7/9;
+
+  border-left: 2px solid map-get($color-main, m-black);
+
+  &__title {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__fullpiece {
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   flex-direction: column;
+  }
+
+  &__story {
+    width: 100%;
+    height: 6rem;
+    border-radius: 0.3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      font-size: 1.3rem;
+      font-family: lato, sans-serif;
+      text-align: right;
+    }
+
+    &--1 {
+      background: linear-gradient(
+        90deg,
+        rgba(map-get($color-genre, thriller), 1),
+        rgba(map-get($color-sub-genre, t-mystery), 1)
+      );
+    }
   }
 }

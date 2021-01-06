@@ -1,8 +1,15 @@
-.emoji__collection {
-  width: 65%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.emoji {
+  &__collection {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__story--small {
+    font-size: 2.5rem;
+    font-family: Openemonji, Firefoxemoji, OpenSansEmoji, Symbola;
+  }
 }
 
 .div {
